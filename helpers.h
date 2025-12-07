@@ -87,7 +87,8 @@ namespace bmp {
         
         // Check if the file is a valid BMP
         bool isValid() const {
-            return type == 0x4D42; // 'BM' in little-endian
+            // 'BM' in little-endian
+            return type == 0x4D42; 
         }
     } __attribute__((packed));
 
