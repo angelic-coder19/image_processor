@@ -2,7 +2,7 @@
 #include <cstdint>
 #include <cstring>
 
-// Use C++ type aliases instead of C typedefs
+// Use C++ type aliases
 using BYTE = uint8_t;
 using DWORD = uint32_t;
 using LONG = int32_t;
